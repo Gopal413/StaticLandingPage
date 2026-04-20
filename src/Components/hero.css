@@ -1,0 +1,52 @@
+
+.cardHero2{
+    
+}
+
+.hero-card {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.hero-section2{
+    display: flex;
+    gap: 20px; 
+    padding: 30px;
+}
+
+.hero-section{
+    width: 100%;
+    height: 100%;
+    border: 2px solid pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+    padding: 10px;
+    background-color: whitesmoke;
+    box-sizing: 0 0 10px black;
+    border-radius: 20px;
+}
+.hero-section p{
+    font-weight: bold;
+    color: rgb(22, 22, 241);
+}
+
+@media screen and (max-width : 800px) {
+    .hero-section2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+    }
+}
