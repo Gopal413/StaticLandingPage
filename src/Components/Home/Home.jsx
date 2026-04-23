@@ -5,7 +5,7 @@ function Home() {
   return (
     <div className="container2">
       <div className="card1">
-        <h1>Unlock Campus Life with Sharief</h1>
+        <h1>Unlock Campus Life with Gopal</h1>
         <p>
           Discover budget-friendly gadgets, study tools, and dorm vibes that fit
           your student wallet. Fast delivery, epic deals—because acing exams

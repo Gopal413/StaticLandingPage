@@ -13,7 +13,7 @@ const Hero = () => {
               <p>- Alex R., Sophomore</p>
         </div>
         <div className='hero-section'>
-              <span>"The earbuds are a game-changer for noisy libraries. Sharief gets it."</span>
+              <span>"The earbuds are a game-changer for noisy libraries. Goapl gets it."</span>
               <p>- Jordan L., Junior</p>
         </div>
         <div className='hero-section'>

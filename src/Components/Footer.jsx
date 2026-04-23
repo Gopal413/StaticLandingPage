@@ -5,7 +5,7 @@ function LandingFooter() {
   return (
     <div className="landfooter">
       <div className="land-section">
-        <h2 style={{ fontSize: "40px" }}>Join the Sharief Squad</h2>
+        <h2 style={{ fontSize: "40px" }}>Join the Gopal Squad</h2>
         <p style={{ fontSize: "20px" }}>
           Get first dibs on flash sales, exclusive drops, and that one gadget
           you didn't know you needed.
@@ -55,7 +55,7 @@ function LandingFooter() {
 
         <div className="footer2">
           <p>
-            © 2025 Sharief Co. All rights reserved. | Built with ❤️ for
+            © 2025 Gopal Co. All rights reserved. | Built with ❤️ for
             students.
           </p>
         </div>
