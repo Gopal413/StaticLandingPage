@@ -18,7 +18,7 @@ function Home() {
       </div>
       <div className="card2">
         
-        <img style={{borderRadius:"30px"}} src="./images/College.png" alt="not found" />
+        <img style={{borderRadius:"30px"}} src="./images/college.png" alt="not found" />
       </div>
     </div>
   );
