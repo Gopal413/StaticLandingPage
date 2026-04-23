@@ -29,7 +29,7 @@ function Header() {
                 
                  <ul className='ulclass2'>
                 {list.map((item,index)=>
-                    <li key={index}><span>{item.icon}{item.name}</span></li>
+                    <li key={index}><span>{item.icon}</span><span id='tagname'>{item.name}</span></li>
                 )}
             </ul>
             </div>}

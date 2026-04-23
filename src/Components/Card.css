@@ -3,94 +3,69 @@
   padding: 0px;
 }
 .cards {
+ 
   padding: 20px;
   position: relative;
   gap: 20px;
-  background-color: rgb(230, 227, 234);
-}
-
-.cardMap{
- display: grid;
-  /* grid-template-columns: repeat(3, minmax(100px 1fr)); */
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 16px;
-  
-  margin: 20px;
+  background-color: rgb(207, 205, 205);
+  /* margin: 0px 40px 0px 40px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .cardItems {
-  width: 300px;
-  height: 350px;
-  background-color: rgb(243, 239, 239);
-  border-radius: 20px;
-
-  /* display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px; */
+width: 80%;
+height: 80%;
+   border-radius: 40px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  padding: 20px;
+  gap: 10px;
+  box-sizing: border-box;
+  
 }
 
-.cardItems:hover {
+/* .cardItems:hover {
   width: 305px;
   height: 355px;
   box-shadow: 0 0 10px black;
-}
-/* 
-.imgcard {
-  width: 300px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-
-  border: 2px solid black;
-  background-color: white;
-  overflow: hidden;
-  gap: 10px;
-  margin: 50px;
-  border-radius: 20px;
-}
-
-img {
-  height: 200px;
-}
-p {
-}
-button {
-  width: 90%;
-  font-size: 25px;
-  padding: 0px 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 10px;
 } */
 
-
-
-.card-items1 {
+.card-items1{
+  /* background-color: brown; */
+  /* width:300px; */
   width: 100%;
-  height: 40%;
-  background-color: aqua;
-  /* overflow: hidden; */
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  background-image: url("../Assets/Laptop.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  height: 50%;
 }
+
+.card-items1 img{
+  width:100%;
+  height: 100%;
+   border-top-left-radius: 20px;
+ border-top-right-radius: 20px;
+ 
+}
+
 .card-items2 {
   width: 100%;
-  height: 60%;
+  height: 50%;
   background-color: white;
   /* border-radius: 20px; */
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+  /* border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px; */
   display: flex;
   flex-direction: column;
   gap: 20px;
   justify-content: center;
   align-items: center;
+ padding-bottom:10px ;
+ 
+ border-bottom-left-radius: 20px;
+ border-bottom-right-radius: 20px;
+  text-align: center;
 
-  /* overflow: hidden; */
 }
 
 .card-items2 button{
@@ -100,49 +75,37 @@ button {
  background:linear-gradient(to right, rgb(126, 126, 224),rgb(57, 57, 228));
  border-radius: 20px;
  font-size: medium;
-
-
 }
+.main-item{
+  
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+ border-radius: 10px;
+}
+.main-item:hover{
+    width: 90%;
+    height: 90%;
+  }
 
 @media screen and (max-width:800px) {
-  /* .cardMap{
+  .cardItems{
+    grid-template-columns: repeat(1,1fr);
+    
+    padding: 0px;
+    text-align: start;
+  }
+  .cards{
     display: flex;
-   
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding: 10px;
-    height: 800px;
-   
-  } */
-   .cardMap{
-  display: grid;
-  grid-template-columns: 1fr;
+  }
+  .main-item:hover{
+    width: 90%;
+    height: 90%;
+  }
 
-  justify-content: center;
-  gap: 20px;
-  background-color: aqua;
-
-}
-  .cardItems {
-  width: 100%;
-  height: 100%;
-  box-shadow: 0 0 10px black;
-}
-  .card-items1{
-    width: 100%;
-    height: 40%;
-   
-    
-  }
-  .card-items2{
-    width: 100%;
-    height: 60%;
-    font-size: 10px;
-    gap: 2px;
-    
-  }
-  .card-items2 button{
-    font-size: 10px;
-  }
-  
 }

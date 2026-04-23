@@ -26,6 +26,9 @@ h2{
 
 .smallnav{
     display: none;
+    transform: translateX(-150%);
+    transition: all 0.5s ease-in-out;
+   
 }
 
 .ulclass{ 
@@ -36,10 +39,11 @@ h2{
     font-weight: bold;
 }
 .ulclass li{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
+   
+        
+        
+       
+    
     }
 .menu{
     display: none;
@@ -55,14 +59,19 @@ h2{
         display: none;
     }
     .smallnav{
-        display: block;
+        display: flex;
+        justify-content: center;
         background-color: rgb(216, 216, 231);
         position: absolute;
         top: 100%;
         left: 0px;
         width: 100%;
-        transition:  0.5s linear 0.5s;
+        /* transition:  translate(87px) ease; */
+        transform: translateX(0);
+        opacity: 1;
     }
+    
+
     .ulclass2{
         display: flex;
         flex-direction: column;
@@ -71,12 +80,18 @@ h2{
         padding: 10px;
         align-items: center;
     }
-    .ulclass2 li span{
+    .ulclass2 li{
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
+        
         gap: 10px;
         width: 100px;
+    }
+    #tagname{
+        width: 100px;
+       
+        text-align: start;
     }
     
 }

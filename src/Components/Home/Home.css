@@ -1,29 +1,29 @@
 
 .container2{
     background:linear-gradient(to top , #b78ccc,#9593e3);
-    display: flex;
-    padding: 100px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    padding: 5px;
     margin: 0 40px 0 40px;
-    gap: 30px;
-    width: auto;
-    
 }
 
 .card1{
     width: 100%;
-
-    
+    padding: 20px;
+   
     color: white; 
     display: flex;
     flex-direction: column;
     justify-content:center ;
     align-items: center;
     text-align: start;
-    font-size: 35px;
+    font-size: 30px;
     flex-grow: 1;
 }
 
 .card2{
+
    width: 100%;
    height: 100%;
    display: flex;
@@ -35,8 +35,8 @@
 }
 
 .card2 img{
-    width: 80%;
-    height: 40vh;
+    width: 90%;
+    height: 50vh;
     border-radius: 20px;
    flex-shrink: 2;
 }
@@ -55,7 +55,7 @@
     font-size: 15px;
 }
 
-@media screen and (max-width:110px) {
+/* @media screen and (max-width:110px) {
     .container2{
         display: flex;
         flex-direction: column;
@@ -73,7 +73,7 @@
         font-size: 10px;
         margin-left: 10px;
     }
-}
+} */
 
 @media screen and (max-width:850px) {
     .container2{
@@ -81,13 +81,33 @@
         flex-direction: column;
         justify-content: flex-start;
         padding: 10px;
+        margin: 0px ;
+        gap: 40px;
+        
     }
     .card1{
+        width: 90%;
+        height: auto;
         padding: 20px;
-        font-size: 20px;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .card2{
+        width: 90%;
+        height: 100%;
+        padding: 10px;
+        
+    }
+    .card2 img{
+        width: 100%;
+        height: 100%;
     }
     .btns{
-        
+        text-align: center;
         font-size: 15px;
         margin-left: 10px;
     }
